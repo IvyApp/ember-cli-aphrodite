@@ -10,7 +10,11 @@ Co-locate your styles with your Ember components, using [Aphrodite](https://gith
 ember install ember-cli-aphrodite
 ```
 
-## Usage
+## Demo
+
+Basic example from the [Aphrodite README](https://github.com/Khan/aphrodite#api): https://ember-twiddle.com/81701ffed95b8ee19930b287fbefcca8
+
+## Examples
 
 In your component, define styles in a `StyleSheet`, and then reference them in your template via the provided `{{css}}` helper:
 
