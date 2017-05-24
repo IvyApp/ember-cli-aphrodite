@@ -1,5 +1,7 @@
 # ember-cli-aphrodite
 
+[![Build Status](https://travis-ci.org/IvyApp/ember-cli-aphrodite.svg?branch=master)](https://travis-ci.org/IvyApp/ember-cli-aphrodite)
+
 Co-locate your styles with your Ember components, using [Aphrodite](https://github.com/Khan/aphrodite).
 
 ## Installation
