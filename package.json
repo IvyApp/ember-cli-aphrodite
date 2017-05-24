@@ -1,23 +1,30 @@
 {
   "name": "ember-cli-aphrodite",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "Aphrodite integration for Ember CLI",
   "keywords": [
-    "ember-addon"
+    "aphrodite",
+    "css",
+    "css-in-js",
+    "ember-addon",
+    "inline-styles"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Dray Lacy",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/IvyApp/ember-cli-aphrodite",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
+    "aphrodite": "^1.2.1",
+    "broccoli-merge-trees": "^2.0.0",
+    "broccoli-webpack": "^1.0.0",
     "ember-cli-babel": "^6.0.0"
   },
   "devDependencies": {

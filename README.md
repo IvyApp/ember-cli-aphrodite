@@ -1,26 +1,33 @@
 # ember-cli-aphrodite
 
-This README outlines the details of collaborating on this Ember addon.
+Co-locate your styles with your Ember components, using [Aphrodite](https://github.com/Khan/aphrodite).
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-aphrodite`
-* `npm install`
+```sh
+ember install ember-cli-aphrodite
+```
 
-## Running
+## Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+In your component, define styles in a `StyleSheet`, and then reference them in your template via the provided `{{css}}` helper:
 
-## Running Tests
+```js
+import Component from 'ember-component';
+import { StyleSheet } from 'aphrodite';
+import hbs from 'htmlbars-inline-precompile';
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+export default Component.extend({
+  layout: hbs`
+    <span class="{{css styles.red}}">
+      This is red.
+    </span>
+  `,
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+  styles: StyleSheet.create({
+    red: {
+      backgroundColor: 'red'
+    }
+  })
+});
+```
