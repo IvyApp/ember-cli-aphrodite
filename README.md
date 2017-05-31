@@ -36,6 +36,8 @@ export default Component.extend({
 
 To learn more about `aphrodite` and how to use it, visit the [aphrodite][] GitHub page.
 
+For Sass-style helpers, take a look at [ember-cli-polished-shim](https://github.com/IvyApp/ember-cli-polished-shim).
+
 ## Demo
 
 Basic example from the [Aphrodite README](https://github.com/Khan/aphrodite#api): https://ember-twiddle.com/81701ffed95b8ee19930b287fbefcca8
