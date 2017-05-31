@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/IvyApp/ember-cli-aphrodite.svg?branch=master)](https://travis-ci.org/IvyApp/ember-cli-aphrodite)
 
-Co-locate your styles with your Ember components, using [Aphrodite](https://github.com/Khan/aphrodite).
+Co-locate your styles with your Ember components, using [aphrodite][].
 
 ## Installation
 
@@ -10,11 +10,7 @@ Co-locate your styles with your Ember components, using [Aphrodite](https://gith
 ember install ember-cli-aphrodite
 ```
 
-## Demo
-
-Basic example from the [Aphrodite README](https://github.com/Khan/aphrodite#api): https://ember-twiddle.com/81701ffed95b8ee19930b287fbefcca8
-
-## Examples
+## Usage
 
 In your component, define styles in a `StyleSheet`, and then reference them in your template via the provided `{{css}}` helper:
 
@@ -37,3 +33,11 @@ export default Component.extend({
   })
 });
 ```
+
+To learn more about `aphrodite` and how to use it, visit the [aphrodite][] GitHub page.
+
+## Demo
+
+Basic example from the [Aphrodite README](https://github.com/Khan/aphrodite#api): https://ember-twiddle.com/81701ffed95b8ee19930b287fbefcca8
+
+[aphrodite]: https://github.com/Khan/aphrodite
