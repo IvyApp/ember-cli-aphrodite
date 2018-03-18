@@ -1,12 +1,12 @@
-import { test } from 'qunit';
-import moduleForAcceptance from '../../tests/helpers/module-for-acceptance';
+import { module, test } from 'qunit';
+import { setupApplicationTest } from 'ember-qunit';
 
-moduleForAcceptance('Acceptance | styles');
+module('Acceptance | styles', function(hooks) {
+  setupApplicationTest(hooks);
 
-test('it renders CSS correctly', function(assert) {
-  visit('/');
+  test('it renders CSS correctly', async function(assert) {
+    await visit('/');
 
-  andThen(function() {
     assert.equal(findWithAssert('p:eq(0)').css('backgroundColor'), 'rgb(255, 0, 0)');
   });
 });
