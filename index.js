@@ -1,4 +1,3 @@
-/* eslint-env node */
 'use strict';
 
 const WebpackWriter = require('broccoli-webpack');
