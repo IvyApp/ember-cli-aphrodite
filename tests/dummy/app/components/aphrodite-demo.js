@@ -1,4 +1,4 @@
-import Component from 'ember-component';
+import Component from '@ember/component';
 import { StyleSheet } from 'aphrodite';
 import hbs from 'htmlbars-inline-precompile';
 
