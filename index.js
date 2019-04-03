@@ -5,7 +5,7 @@ const mergeTrees = require('broccoli-merge-trees');
 const path = require('path');
 
 module.exports = {
-  name: 'ember-cli-aphrodite',
+  name: require('./package').name,
 
   defaultOptions: {
     important: true
